@@ -41,14 +41,14 @@ export default function Page() {
       </div>
 
       <footer className="pt-12 border-t border-neutral-800 space-y-6">
-        <div className="text-center">
+        <div className="text-center py-4 border-b border-neutral-800">
           <a href="mailto:deeptechconf@appetite.studio" className="text-neutral-400 hover:text-white text-sm">
             enquiries?
           </a>
         </div>
         <img src="/footer-sponsors.png" alt="Sponsors" className="w-full" />
         <div className="text-sm text-neutral-500 text-center">
-          organised by <a href="https://appetite.studio/" target="_blank" className="underline hover:text-white">Appetite for Good</a>
+          organised by <a href="https://appetite.studio/" target="_blank" className="underline hover:text-white">Appetite for Good</a> 🪴
         </div>
       </footer>
     </main>
