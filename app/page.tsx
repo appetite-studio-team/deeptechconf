@@ -16,7 +16,7 @@ export default function Page() {
       <section className="space-y-4 text-center -mt-12">
         <h2 className="text-xl font-medium">why join</h2>
         <p className="text-sm text-neutral-400">it is free to join you will get goodies good food and a space to meet founders investors and people building what matters</p>
-        <p className="text-sm">listen to talks see demos and be part of a space where ideas actually move</p>
+        <p className="text-sm text-neutral-400">listen to talks see demos and be part of a space where ideas actually move</p>
       </section>
 
       <div className="text-center space-y-4">
