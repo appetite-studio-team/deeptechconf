@@ -1,7 +1,7 @@
 export default function Page() {
   return (
     <main className="space-y-16">
-      <img src="/banner.png" alt="DeepTech Hackers Day Bengaluru" className="w-full rounded-lg" />
+      <img src="/banner.png" alt="DeepTech Hackers Day Bengaluru" className="w-full rounded-lg -mb-12" />
       <header className="space-y-4 text-center">
         <h1 className="sr-only">DeepTech Hackers Day Bengaluru</h1>
         <div className="space-y-2">
@@ -15,7 +15,7 @@ export default function Page() {
 
       <section className="space-y-4 text-center -mt-12">
         <h2 className="text-xl font-medium">why join</h2>
-        <p className="text-sm">it is free to join you will get goodies good food and a space to meet founders investors and people building what matters</p>
+        <p className="text-sm text-neutral-400">it is free to join you will get goodies good food and a space to meet founders investors and people building what matters</p>
         <p className="text-sm">listen to talks see demos and be part of a space where ideas actually move</p>
       </section>
 
