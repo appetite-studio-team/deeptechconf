@@ -40,8 +40,8 @@ export default function Page() {
         </section>
       </div>
 
-      <footer className="pt-12 border-t border-neutral-800 space-y-6">
-        <div className="text-center py-4 border-b border-neutral-800">
+      <footer className="pt-6 border-t border-neutral-800 space-y-6">
+        <div className="text-center pb-4">
           <a href="mailto:deeptechconf@appetite.studio" className="text-neutral-400 hover:text-white text-sm">
             enquiries?
           </a>
