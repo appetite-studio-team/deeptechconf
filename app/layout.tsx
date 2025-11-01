@@ -1,5 +1,6 @@
 import './globals.css';
 import { Poppins } from 'next/font/google';
+import Script from 'next/script';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -53,7 +54,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body className={`${poppins.className} max-w-3xl mx-auto px-4 sm:px-6 py-12`}>{children}</body>
+      <body className={`${poppins.className} max-w-3xl mx-auto px-4 sm:px-6 py-12`}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-R2QZSRYJDT"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-R2QZSRYJDT');
+          `}
+        </Script>
+        {children}
+      </body>
     </html>
   );
 }
